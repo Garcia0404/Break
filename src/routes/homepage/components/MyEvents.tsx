@@ -42,7 +42,7 @@ export const MyEvents = () => {
   const [position, setPosition] = useState(0)
   return (
     <section
-      className="text-black md:col-start-7 md:col-end-14 md:row-start-2 md:row-end-4 overflow-hidden relative">
+      className="text-black md:col-start-7 md:col-end-14 md:row-start-2 md:row-end-4 overflow-hidden relative max-sm:p-4">
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-between z-40"
         style={{ boxShadow: "inset 10px 0px 10px rgba(0,0,0,0.5)" }}>
         <button aria-label="evento anterior" onClick={() => setPosition(position + 330)} style={{ backgroundColor: BUTTONS_COLOR }} className="border opacity-20 hover:opacity-100 transition-opacity rounded-full p-2 m-2 cursor-pointer rotate-180">
@@ -57,8 +57,8 @@ export const MyEvents = () => {
         </button>
       </div>
       <div className="absolute top-0 right-0 w-30 h-full z-30" style={{ background: "linear-gradient(to left, #010101,transparent" }}></div>
-      <h2 className="text-4xl text-white font-bold mb-6">🎟️ Mis Eventos</h2>
-      <motion.div animate={{ x: position }} className="flex gap-4">
+      <h2 className="text-3xl sm:text-4xl text-white font-bold mb-6">🎟️ Mis Eventos</h2>
+      <motion.div animate={{ x: position }} transition={{duration:0.3}} className="flex gap-4">
         {myEvents.map((event, index) => (
           <EventCard key={`${event.id}-${index}`} event={event} />
         ))}

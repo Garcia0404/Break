@@ -7,7 +7,7 @@ const Card = ({ title, image }: { title: string, image: string }) => {
     <li className="min-w-full h-full relative">
       <article className="h-full w-full relative">
         <img width="800px" height="100%" src={image} alt={`event-${title}`} className="min-w-full h-full object-cover" />
-        <motion.h3 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{delay:0.3}} className="absolute bottom-0 text-white z-30 my-3 mx-6 text-2xl font-medium">{title}</motion.h3>
+        <motion.h3 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{delay:0.3}} className="absolute bottom-0 text-white z-30 my-3 mx-6 text-xl sm:text-2xl font-medium">{title}</motion.h3>
       </article>
       <motion.div
         className="absolute bottom-0 left-0 w-full h-full z-10"

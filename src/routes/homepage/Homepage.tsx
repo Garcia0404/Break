@@ -14,7 +14,7 @@ export const Homepage = () => {
     <>
       <EventsSlider />
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-        className="flex flex-col md:grid md:grid-cols-13 md:grid-rows-4 p-4 gap-4"
+        className="flex flex-col md:grid md:grid-cols-13 md:grid-rows-4 sm:p-4 gap-4 mt-4"
         style={{ minHeight: MIN_HEIGHT }}>
         <RecommendedEvents />
         <Hour />

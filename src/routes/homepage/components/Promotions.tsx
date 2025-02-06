@@ -16,8 +16,8 @@ const Card = () => {
 }
 export const Promotions = () => {
   return (
-    <section className="text-white col-start-1 col-end-7">
-      <ul className="grid grid-cols-3 gap-4">
+    <section className="text-white col-start-1 col-end-7 max-sm:p-4">
+      <ul className="grid sm:grid-cols-3 gap-4">
         {
           [1,2,3].map((_item,index) => (
             <Card key={index}/>

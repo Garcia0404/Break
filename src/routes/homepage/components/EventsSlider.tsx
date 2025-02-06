@@ -61,9 +61,9 @@ export const EventsSlider = () => {
     if (sliderMultiplier > 0) setSliderMultiplier(sliderMultiplier - 1)
   }
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="relative h-72">
-      <div className="overflow-hidden h-72" style={{ mask: "linear-gradient(to right,#000 70%,transparent 100%)" }}>
-        <motion.ul animate={{ x: -sliderMultiplier * 336 }} transition={{ duration: 0.6, ease: [0.45, 0, 0.55, 1] }} className="flex gap-4 h-72 sm:py-8 sm:px-8 pt-8" >
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="relative h-72 max-sm:my-8">
+      <div className="overflow-hidden h-72" style={{ mask: "linear-gradient(to right,#000 80%,transparent 100%)" }}>
+        <motion.ul animate={{ x: -sliderMultiplier * 336 }} transition={{ duration: 0.6, ease: [0.45, 0, 0.55, 1] }} className="flex gap-4 h-72 sm:py-8 px-4 sm:px-8" >
           {
             myEvents.map((event, _index) => (
               <li key={`${event.title}-${event.date}`}>

@@ -36,13 +36,13 @@ export const myEvents = [
     "status":"active"
   },
   {
-    "id":"Yield Rock",
-    "title":"Yield Rock",
-    "date":"30/01/2025",
+    "id":"AFK Restobar",
+    "title":"AFK Restobar",
+    "date":"30/12/2025",
     "time":"10:00",
     "location":"Plaza San Martin, Jirón Carabaya 815, Lima 15001",
     "description":"Un espacio donde podrás disfrutar de los mejores conciertos con bandas nacionales e internacionales, la buena música, diversidad de cervezas y cocteles, y la mejor atención.",
-    "image":"https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/313916016_10159237246922725_2658942761274721070_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeFiXAeVrX8qQAaoKqWh_71I_GB0zd7CzS38YHTN3sLNLbl5FVVA-P4fAS8BzGuAlvh0zBgoP7zhFux92nfZfwDl&_nc_ohc=yEvs7oKoXh0Q7kNvgEbYL25&_nc_oc=Adi5D-zmfADoOT7VbiCqhuNSiG90-JhpG5TUnf7yyP3Sqt7jGij5yQblImmu76YfARE&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&_nc_gid=AyCIGr1RLlf7X_A9ejNRqPc&oh=00_AYAgUfyOW7RPhX4MIBlE0ys789AepR0ldhaTJZ0PPBmAlg&oe=67A0CDB9",
+    "image":"https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/472210266_640659938392758_5459868497101557332_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3a1ebe&_nc_eui2=AeERPStkxhtsMssXRe1SGbsTwZzbtJiM4G_BnNu0mIzgb-g3XZrtIfKTK6ilLIcSmyercbhPOyavCQ9FOvj6K90E&_nc_ohc=P8X8FbUBlIgQ7kNvgHquCxq&_nc_oc=Adh6db8ZB3dcx9nz03qwevR3XPu6OaXgFN1qU9fY2gyuJaJUjsOiZVE1RkHXuQ6Seu0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&_nc_gid=AHb-YGsTCOckz10ip_6k0w4&oh=00_AYCgCSi6TNc4YnCPiiNW5lowzbdsYsttbeHS6vnh9rgqMg&oe=67A9E0A3",
     "price":40,
     "category":"Punk",
     "status":"active"
@@ -60,13 +60,13 @@ export const myEvents = [
     "status":"active"
   },
   {
-    "id":"Yield Rock",
-    "title":"Yield Rock",
+    "id":"AFK Restobar",
+    "title":"AFK Restobar",
     "date":"09/01/2025",
     "time":"10:00",
     "location":"Plaza San Martin, Jirón Carabaya 815, Lima 15001",
     "description":"Un espacio donde podrás disfrutar de los mejores conciertos con bandas nacionales e internacionales, la buena música, diversidad de cervezas y cocteles, y la mejor atención.",
-    "image":"https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/313916016_10159237246922725_2658942761274721070_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeFiXAeVrX8qQAaoKqWh_71I_GB0zd7CzS38YHTN3sLNLbl5FVVA-P4fAS8BzGuAlvh0zBgoP7zhFux92nfZfwDl&_nc_ohc=yEvs7oKoXh0Q7kNvgEbYL25&_nc_oc=Adi5D-zmfADoOT7VbiCqhuNSiG90-JhpG5TUnf7yyP3Sqt7jGij5yQblImmu76YfARE&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&_nc_gid=AyCIGr1RLlf7X_A9ejNRqPc&oh=00_AYAgUfyOW7RPhX4MIBlE0ys789AepR0ldhaTJZ0PPBmAlg&oe=67A0CDB9",
+    "image":"https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/472210266_640659938392758_5459868497101557332_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3a1ebe&_nc_eui2=AeERPStkxhtsMssXRe1SGbsTwZzbtJiM4G_BnNu0mIzgb-g3XZrtIfKTK6ilLIcSmyercbhPOyavCQ9FOvj6K90E&_nc_ohc=P8X8FbUBlIgQ7kNvgHquCxq&_nc_oc=Adh6db8ZB3dcx9nz03qwevR3XPu6OaXgFN1qU9fY2gyuJaJUjsOiZVE1RkHXuQ6Seu0&_nc_zt=23&_nc_ht=scontent.flim28-1.fna&_nc_gid=AHb-YGsTCOckz10ip_6k0w4&oh=00_AYCgCSi6TNc4YnCPiiNW5lowzbdsYsttbeHS6vnh9rgqMg&oe=67A9E0A3",
     "price":40,
     "category":"Punk",
     "status":"active"
